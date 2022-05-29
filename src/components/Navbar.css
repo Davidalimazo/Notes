@@ -26,6 +26,9 @@
 .break-page{
     margin-left: 10px;
 }
+.break-page a{
+    color: black !important;
+}
 @media(max-width:768px){
     .break-page{
         margin-top: 25px;
