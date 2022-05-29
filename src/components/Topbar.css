@@ -1,0 +1,25 @@
+.add-new{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+   background: #fff;
+   display: flex;
+   align-content: center;
+   border-radius: 10px;
+   padding: 14px;
+   flex-direction: column;
+}
+.notes-title{
+    margin-bottom: 15px;
+    margin-right: auto;
+}
+.noteicon{
+    display: flex;
+}
+.inpt1{
+    margin-right: 10px;
+}
+.all-notes{
+    margin-right: auto;
+}
+

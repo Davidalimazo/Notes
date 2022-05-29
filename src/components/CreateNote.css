@@ -1,0 +1,26 @@
+.create-note{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin-top: 30px;
+}
+.create-note > div{
+   margin-bottom: 15px;
+}
+.note-text{
+    width: 400px;
+    text-align: center;
+}
+.image-note img{
+    width: 250px;
+}
+.image-note, .note-text, .note-btn{
+    margin: auto;
+}
+@media(max-width:413px){ 
+    .note-text{
+        max-width: 315px;
+        text-align: center;
+    }
+}

@@ -1,0 +1,31 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.links{
+   margin: 30px 20px;
+}
+.link{
+    margin: 20px 10px;
+    padding: 5px 15px;
+    border-bottom: 2px solid #fff;
+}
+a{
+    text-decoration: none !important;
+    color: #fff !important;
+  }
+  a:hover{
+    text-decoration: none !important;
+  }
+  a:active{
+    outline : none !important;
+    border: none !important;
+  }
+
+
+@media(max-width:768px){
+    .sidebar{
+        display: none;
+    }
+}
